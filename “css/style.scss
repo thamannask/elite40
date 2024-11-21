@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+$bg-color:purple;
+
+@mixin anchor-code($col:#FFF) {
+    color: $col;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.container {
+    .content {
+        background-color: $bg-color;
+        .main {
+            .change {
+                p{
+                    color:red;
+                }
+                a{
+                   @include anchor-code();
+                }
+            }
+        }
+    }
+    .main{
+        ul{
+            li{
+                background-color: $bg-color;
+                a{
+                    color: red;
+                }
+            }
+        }
+    }
+    .change{
+        p{
+            text-decoration: none;
+            text-transform: lowercase;
+            background-color: $bg-color;
+            color:green;
+        }
+    }    
+}

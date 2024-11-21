@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container .content {
+  background-color: purple;
+}
+.container .content .main .change p {
+  color: red;
+}
+.container .content .main .change a {
+  color: #FFF;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.container .main ul li {
+  background-color: purple;
+}
+.container .main ul li a {
+  color: red;
+}
+.container .change p {
+  text-decoration: none;
+  text-transform: lowercase;
+  background-color: purple;
+  color: green;
+}/*# sourceMappingURL=style.css.map */
